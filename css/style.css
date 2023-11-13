@@ -58,13 +58,13 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+/****** hebergements-et-populaires ***********/
+.hebergements-et-populaires {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements-et-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
