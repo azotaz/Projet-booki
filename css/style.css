@@ -147,6 +147,16 @@ height: 35px;
 width: 244px;
 }
 
+/******Filtres*******/
+.filtres {
+    display: flex;
+    flex-direction: row;
+}
+
+.filtres .filtres-logo {
+    display: flex;
+    flex-direction: row;
+}
 /****** hebergements-et-populaires ***********/
 .hebergements-et-populaires {
     display: flex;
