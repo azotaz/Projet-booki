@@ -96,25 +96,42 @@ margin: 5px;
 /**********Texte********/
 .card-txt {
 gap: 8px;
-padding: 0px,15px,0px,15px;
+
+}
+/*****haut de page******/
+.haut-de-page {
+    display: flex;
+    flex-direction: row;
+
+    height: 79px;
+
 }
 
-/*****head*****/
-.head {
-    width: 1440px;
-    height: 79px;
+.haut-de-page .logogauche {
+    display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+align-items: flex-start;
 }
+
+.haut-de-page .logomenu {
+    display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+align-items: flex-end;
+}
+
+
 /****logo****/
 .logobooki img{
     width: 61.09px;
     height: 19px;
-    margin:30px, 50px, 30px, 50px;
     gap: 10px;
     display: flex;
 }
 
 .card-logo {
-    padding:30px,50px,30px,50px;
+
     box-sizing: border-box;
     width: 161.09px;
     height: 79px;
@@ -123,6 +140,7 @@ justify-content: space-around;
 flex-wrap: wrap;
 align-items: center;
 }
+
 
 .menu img{
 height: 35px;
@@ -159,7 +177,38 @@ height: 614px;
         height: 614px;
 
 }
+/******footer********/
+.footer .apropos {
+    background-color: var(--main-bg-color);
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 446.67px;
+    height: 163px;
+}
 
+.footer .noshebergements {
+    background-color: var(--main-bg-color);
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 446.67px;
+    height: 163px;
+}
+
+.footer .assistance {
+    background-color: var(--main-bg-color);
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 446.67px;
+    height: 163px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
