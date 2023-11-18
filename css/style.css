@@ -120,6 +120,27 @@ height: 35px;
 width: 244px;
 }
 
+.logoinfo {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #d9d9d9;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.texte-info {
+  margin-top: 100px;  
+}
 /******Filtres*******/
 
 .filtres {
@@ -127,8 +148,7 @@ width: 244px;
     margin-left: 20px;
 }
 body {
-
-    margin: 0;
+    margin: 30px;
     padding: 0;
 }
 
@@ -148,8 +168,9 @@ body {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    font-size: ;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .styled-button:hover {
