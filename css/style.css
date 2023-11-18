@@ -29,7 +29,7 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-    
+
 }
 
 .section-title {
@@ -122,62 +122,38 @@ width: 244px;
 
 /******Filtres*******/
 
-
-.filtres {
-width: 758px;
-height: 50px;
-box-sizing: border-box;
-}
-
 .filtres {
     display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
+    margin-left: 20px;
+}
+body {
+
+    margin: 0;
+    padding: 0;
 }
 
-.card-filtres {
-    display: flex;
-    flex-direction: row;
+.button-container {
+
+    text-align: center; 
 }
-.card-billet {   
-    border-width: 2px;
-    border-style: solid;
-    border-color: #d9d9d9;
-    border-radius: 25px;
+
+.styled-button {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 10px;
+    border: 2px solid #d9d9d9;
+    border-radius:25px;
+    background-color: #fff;
     text-align: center;
-    width: 150px;
-    height: 50px; 
-
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: ;
 }
 
-.logo-homme {   
-    border-width: 2px;
-    border-style: solid;
-    border-color: #d9d9d9;
-    text-align: center;
-    border-radius: 25px;
-    width: 150px;
-    height: 50px; 
-}
-
-.logo-coeur {   
-    border-width: 2px;
-    border-style: solid;
-    border-color: #d9d9d9;
-    text-align: center;
-    border-radius: 25px;
-    width: 150px;
-    height: 50px;  
-}
-
-.logo-flamme {   
-    border-width: 2px;
-    border-style: solid;
-    border-color: #d9d9d9;
-    text-align: center;
-    border-radius: 25px;
-    width: 150px;
-    height: 50px;  
+.styled-button:hover {
+    background-color: #2980b9;
 }
 /****** hebergements-et-populaires ***********/
 
@@ -188,7 +164,7 @@ box-sizing: border-box;
 
 .hebergements-et-populaires {
     width:97%; 
-    height: 38%; 
+    height: 35%; 
     justify-content: space-around;
     display: flex;
 }
