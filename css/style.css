@@ -83,27 +83,24 @@ gap: 8px;
 }
 
 .haut-de-page .logogauche {
-    display: flex;
-    justify-content: space-around;
-flex-wrap: wrap;
-align-items: flex-start;
+
 }
 
 .haut-de-page .logomenu {
-    display: flex;
-    justify-content: space-around;
-flex-wrap: wrap;
-align-items: flex-end;
+
 }
 
-
+.nav {
+    width: 1340px;
+    height: 281px;
+}
 /****logo****/
 
 .logobooki img{
     width: 61.09px;
     height: 19px;
     gap: 10px;
-    display: flex;
+
 }
 
 .card-logo {
@@ -125,46 +122,62 @@ width: 244px;
 
 /******Filtres*******/
 
+
+.filtres {
+width: 758px;
+height: 50px;
+box-sizing: border-box;
+}
+
 .filtres {
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
 }
 
-.filtres .filtres-logo {
+.card-filtres {
     display: flex;
     flex-direction: row;
 }
-
 .card-billet {   
     border-width: 2px;
     border-style: solid;
     border-color: #d9d9d9;
-   
     border-radius: 25px;
+    text-align: center;
+    width: 150px;
+    height: 50px; 
+
 }
 
 .logo-homme {   
     border-width: 2px;
     border-style: solid;
     border-color: #d9d9d9;
-    
+    text-align: center;
     border-radius: 25px;
+    width: 150px;
+    height: 50px; 
 }
 
 .logo-coeur {   
     border-width: 2px;
     border-style: solid;
     border-color: #d9d9d9;
-  
+    text-align: center;
     border-radius: 25px;
+    width: 150px;
+    height: 50px;  
 }
 
 .logo-flamme {   
     border-width: 2px;
     border-style: solid;
     border-color: #d9d9d9;
- 
+    text-align: center;
     border-radius: 25px;
+    width: 150px;
+    height: 50px;  
 }
 /****** hebergements-et-populaires ***********/
 
@@ -175,7 +188,7 @@ width: 244px;
 
 .hebergements-et-populaires {
     width:97%; 
-    height: 32%; 
+    height: 38%; 
     justify-content: space-around;
     display: flex;
 }
@@ -281,14 +294,14 @@ width: 244px;
 }
 
 .card-heb {
-    width:250.33px;
+    width:230px;
     height:207.25px;
     background-color: white;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     padding-bottom: 30px;
-
+margin-top: 33px;
 
 }
 
