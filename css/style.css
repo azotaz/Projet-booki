@@ -78,50 +78,36 @@ gap: 8px;
 /*****haut de page******/
 
 .haut-de-page {
+    margin-left: 30px;
     display: flex;
-    flex-direction: row;
+    text-align: right;
 }
 
-.haut-de-page .logogauche {
+
+
+
+/******menu principal******/
+.cardmenu {
 
 }
 
-.haut-de-page .logomenu {
+.menu-heb {
 
 }
 
-.nav {
-    width: 1340px;
-    height: 281px;
+.menu-act {
+    
 }
 /****logo****/
 
 .logobooki img{
     width: 61.09px;
     height: 19px;
-    gap: 10px;
-
-}
-
-.card-logo {
-
-    box-sizing: border-box;
-    width: 161.09px;
-    height: 79px;
-    display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-align-items: center;
 }
 
 
-.menu img{
-height: 35px;
-width: 244px;
-}
 
 .logoinfo {
-    margin-left: 20px;
     margin-right: 10px;
     width: 24px;
     height: 24px;
@@ -139,37 +125,57 @@ width: 244px;
 }
 
 .texte-info {
-  margin-top: 100px;  
+  margin-top: 7px;
+
+}
+/******toute recherche******/
+.touterecherche {
+    margin-left: 30px;
 }
 /******barre de cherche*******/
+.text {
+    size: 18px;
+}
 .search-container {
     display: flex;
+    margin-top: 30px;
+
 }
 
 #searchInput {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
+    text-align: center;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
     outline: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #searchButton {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 0 5px 5px 0;
-    background-color: #3498db;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
+    background-color: #0065FC;
     color: #fff;
     cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+
 }
 
 #searchButton:hover {
-    background-color: #2980b9;
+    background-color: #0065FC;
 }
 /******Filtres*******/
+.titre-filtres {
+    margin-top: 6px;
+    
+}
 
 .filtres {
     display: flex;
-    margin-left: 20px;
 }
 body {
     margin: 30px;
@@ -198,7 +204,7 @@ body {
 }
 
 .styled-button:hover {
-    background-color: #2980b9;
+    background-color: #DEEBFF;
 }
 /****** hebergements-et-populaires ***********/
 
