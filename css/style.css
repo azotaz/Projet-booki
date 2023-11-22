@@ -393,6 +393,11 @@ width: 100%;
 
 
 /*******Activités*********/
+
+.section-title-act {
+margin-left: 5%;
+}
+
 .card-acti {
     width: 16%;
     height: 100%;
@@ -562,9 +567,7 @@ height: 30%;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    body { 
-        margin: 0px;
-    }
+
 
     .main-container {
         padding: 0px;
@@ -627,7 +630,7 @@ height: 30%;
     .haut-de-page {
         margin-left: 0px;
     }
-    body
+    
     #searchButton {
         font-size: 0px;
     }
