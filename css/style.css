@@ -79,8 +79,12 @@ margin: 5px;
 
 .card-txt {
 gap: 8px;
-
 }
+
+h1 {
+font-size: 22px;
+}
+
 /*****haut de page******/
 
 .haut-de-page {
@@ -101,7 +105,7 @@ top: 0;
 position: fixed;
 width: 85%;
 justify-content: end;
-max-width: 1440px;
+max-width: 1240px;
 }
 
 .menu-heb {
@@ -375,7 +379,7 @@ margin-left: 5%;
 }
 
 .card-acti {
-    width: 16%;
+    width: 23%;
     height: 100%;
     background-color: #fff;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -393,7 +397,7 @@ margin-left: 5%;
    
 }
 .card-activites .card {
-width: 20%;
+width: 25%;
 height: 20%;
 border-radius: 20px;
 }
@@ -585,7 +589,7 @@ height: 30%;
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    
+
 /****activités****/
 
     .card-acti {   
