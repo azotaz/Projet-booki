@@ -12,7 +12,11 @@
 .fa-solid {
     color: var(--main-color);
 }
-
+html{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 body {
     max-width: 1440px;
     min-width: 320px;
@@ -97,6 +101,7 @@ top: 0;
 position: fixed;
 width: 85%;
 justify-content: end;
+max-width: 1440px;
 }
 
 .menu-heb {
@@ -575,10 +580,6 @@ height: 30%;
 
     /****menu*****/
     .cardmenu {
-        font-size: 0px;
-    }
-
-    .cardmenu-mobile {
         margin: 20px 0px 20px 17%;
         font-size: 16px;
         display: flex;
@@ -586,11 +587,12 @@ height: 30%;
         align-items: center;
         width: 100%;
         
-
     }
 
 
-    .menu-heb-mobile {
+
+
+    .menu-heb {
         border-bottom: 2px solid #F2F2F2;
         display: inline-block;
         display: flex;
@@ -600,29 +602,29 @@ height: 30%;
        
     }
     
-    .menu-heb-mobile:active {
+    .menu-heb:active {
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
     
     }
-    .menu-heb-mobile:focus {
+    .menu-heb:focus {
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
     }
     
-    .menu-act-mobile {
+    .menu-act {
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 10px;
         display: flex;
         justify-content: center;
     }
     
-    .menu-act-mobile:active {
+    .menu-act:active {
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
     }
     
-    .menu-act-mobile:focus {
+    .menu-act:focus {
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
     }
@@ -670,10 +672,47 @@ height: 30%;
    background-color: var(--main-bg-color);
    margin-left: 0px;
 }
+/*****bascule de l'hebergement au populaire******/
+.hebergements-et-populaires{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 
+/******hebergements******/
+.hebergements-cards{
+    display: flex;
+flex-direction: column;
+}
 
+.hebergements-et-populaires .hebergements {
+    background-color:#fff;
 
+}
 
+/******populaire*****/
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.populaires-cards a {
+    width: 100%;
+}
+/******activités*****/
+.card-acti {   
+    height: 200px;
+    width: 315px;
+}
+
+.activites-cards img {
+    width: 315px;
+    height: 141px;
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: column;    
+    }
 
 }
