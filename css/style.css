@@ -262,6 +262,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .info {
@@ -270,7 +271,7 @@ body {
 }
 
 .texte-info {
-  margin-top: 7px;
+
 }
 /****** hebergements-et-populaires ***********/
 
